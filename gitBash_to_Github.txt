@@ -1,0 +1,40 @@
+Issues:
+1.
+Change folder with gitBash when having a white space:
+https://stackoverflow.com/questions/8961334/how-to-change-folder-with-git-bash
+2.
+------------------------------------------------------------------------------
+## Always use commands without dollar ($) sign
+
+On gitBash as default I can access git using this line (see below):
+$ cd "/c/program files/git" # this is gitBash root direction (non-local neither non-remote directory)
+
+On gitBash to check current location being set use this line (see below):
+$ pwd
+# gitBash output: /c/program files/git
+
+On gitBash to set local directory for gitHub account follow those three lines one by one (see below):
+cd
+ls
+cd Desktop # from now one local directory is Desktop
+
+Next step to follow on gitBash is authentication via HTTPS
+git clone https://github.com/reposit96/<custom_repository_name>.git 
+# <custom_repository_name>, in this is case is gitRepo created before cloning procedure being done.
+
+Next step to follow on gitBash is:
+git init
+# Initialized empty Git repository in C:/Users/Lukas_G/Desktop/.git/
+
+Add README.md follow:
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/reposit96/gitRepo.git
+git push -u origin master
+# When open gitRepo in gitHub you can see README.md created remotely via gitBash
+
+Now to add, delete and do other sort of things follow that:
+https://www.youtube.com/watch?v=2vASHVT0qKc
+https://www.youtube.com/watch?time_continue=751&v=73I5dRucCds
+
+
