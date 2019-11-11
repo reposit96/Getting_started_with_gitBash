@@ -1,10 +1,14 @@
 Issues:
 1.
-Change folder with gitBash when having a white space:
+Change folder with gitBash when having a white space [IMPORTANT!]:
 https://stackoverflow.com/questions/8961334/how-to-change-folder-with-git-bash
 2.
 ------------------------------------------------------------------------------
 ## Always use commands without dollar ($) sign
+------------------------------------------------------------------------------
+## First time official doc for setting up git bash to Github
+## Read about credential.helper wincred on stackoverflow
+https://help.github.com/en/github/getting-started-with-github/set-up-git
 
 On gitBash as default I can access git using this line (see below):
 $ cd "/c/program files/git" # this is gitBash root direction (non-local neither non-remote directory)
