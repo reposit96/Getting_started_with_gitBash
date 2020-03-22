@@ -11,3 +11,4 @@ $ git config user.email # reposit96@gmail.com
 
 # For caching your GitHub password in Git (completing authetication process) follow this command below:
 $ git config --global credential.helper wincred # if using gitbash on Windows, must have Git 1.7.10 or newer to use the credential helper!
+# credential.helper is used only for first time unless you modified (did update) credentials recently so it's required for credential.helper usage again!
