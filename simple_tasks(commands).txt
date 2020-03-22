@@ -1,0 +1,13 @@
+# READ FIRST!: hasthag before text meant for commenting in Linux-like environment | Most often used symbols: $ /
+
+# In order to set/update credentials for gitbash to connect via gitHub follow along these commands:
+$ git config --global user.name "enter your username"
+$ git config --global user.email "enter your email"
+$ git config --list # to exit config list press <q> keyword on keyboard # q goes without less or more angles 
+
+# In order to get credentials that already being set follow along these commands seperatly:
+$ git config user.name # reposit96
+$ git config user.email # reposit96@gmail.com
+
+# For caching your GitHub password in Git (completing authetication process) follow this command below:
+$ git config --global credential.helper wincred # if using gitbash on Windows, must have Git 1.7.10 or newer to use the credential helper!
