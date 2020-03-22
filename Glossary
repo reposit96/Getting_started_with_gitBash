@@ -1,0 +1,8 @@
+Remote repository – server-like repository such as Github online
+Local repository – user's desktop or local system repository
+Push (give) – take it away from someone to somewhere
+Pull (take) – take it to one's hands from somewhere
+Pull request – give a message to collaboration group for commits done to check and comment if it's ready to be pulled in (merged)
+Pull request depends on branches (children of master branch)
+Stage – staging is a process of preparing a code for dispatching from...
+Commit (change) – actual dispatching of code
