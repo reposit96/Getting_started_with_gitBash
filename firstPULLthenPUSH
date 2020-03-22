@@ -1,0 +1,4 @@
+# First step is we need to get in touch with github
+# For now I have already created a repo (repository) called new_repo. The command below show on how to connect to new_repo using this syntax
+# $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+$ git clone https://github.com/reposit96/new_repo.git # everything is fine. Now I can 
