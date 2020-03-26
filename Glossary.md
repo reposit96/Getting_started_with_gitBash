@@ -12,4 +12,6 @@
 [For more about the term HEAD in git](https://stackoverflow.com/questions/2304087/what-is-head-in-git)
 ###### HEAD *versus* WORKING TREE *versus* INDEX
 [For more about the terms HEAD WORKING TREE INDEX](https://stackoverflow.com/questions/3689838/whats-the-difference-between-head-working-tree-and-index-in-git)
+###### // Working tree is a node-like scheme comprised of: 1) WORKING DIRECTORY, 2) STAGING AREA (index), 3) .git Repository (working directory as local repository) // 
+[LINK to SCHEME](https://git-scm.com/book/en/v2/images/areas.png)
 
