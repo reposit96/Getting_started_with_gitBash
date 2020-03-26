@@ -10,3 +10,6 @@
 ###### HEAD – is a pointer at current branch ("master" stands for local-like master branch; origin stands for remote-like master branch)
 ###### detached HEAD – a pointer at a branch which name is not associated to the current branch
 [For more about the term HEAD in git](https://stackoverflow.com/questions/2304087/what-is-head-in-git)
+###### HEAD *versus* WORKING TREE *versus* INDEX
+[For more about the terms HEAD WORKING TREE INDEX](https://stackoverflow.com/questions/3689838/whats-the-difference-between-head-working-tree-and-index-in-git)
+
