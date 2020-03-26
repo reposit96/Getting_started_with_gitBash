@@ -27,7 +27,7 @@
 ### Verifies the new remote URL
 ``` git remote -v ```
 ### When it's verified we are ready to push
-``` git push origin master ``` | If any errors displayed, follow this link [https://superuser.com/questions/1412078/bring-a-local-folder-to-remote-git-repo] | Most oftenly this commands helps to workaround the issue: 
+``` git push origin master ``` | If any errors displayed, follow this link [https://superuser.com/questions/1412078/bring-a-local-folder-to-remote-git-repo] | Most oftenly this commands helps to workaround the issue if any: 
 ``` git push origin master --force ```
 
 
