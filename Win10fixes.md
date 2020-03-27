@@ -20,6 +20,22 @@ a) FAT32 up to 2 GB; use the software recommend cluster size!
 b) NTFS for more than 2 GB (newest) ***use this is one is a good practice***; use the software recommend cluster size! It's (4096 bytes)
 [For more read this](https://www.howtogeek.com/136078/what-should-i-set-the-allocation-unit-size-to-when-formatting/)
 
+### Format file system: during Win10 installtion the installation process itself may require to convert (steps below):
+```diff
+- Caution! Selected disk conversion will wipe out all files within that particular disk!
+```
+Firstly press  ``` Shift + F10  ``` so to open a command prompt, then do the following commands:
+
+1. ```list disk```
+2. ```select disk <No.>``` *where as <No.> is specific disk number*
+3. ```clean```
+4. ```convert gpt```
+5. ```exit```
+
+**Bonus commands:**
+- Type ```shutdown /s```  to Shutdown your windows PC; *usually does not work via windows installation process*
+- Type ```shutdown /r ``` to Restart your windows PC; *usually does not work via windows installation process*
+
 ---
 
 [Link on how to install clean Win10](https://www.tenforums.com/tutorials/1950-clean-install-windows-10-a.html)
