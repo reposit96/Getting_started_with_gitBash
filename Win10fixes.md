@@ -24,7 +24,7 @@ b) NTFS for more than 2 GB (newest) ***use this is one is a good practice***; us
 ```diff
 - Caution! Selected disk conversion will wipe out all files within that particular disk!
 ```
-Firstly press  ``` Shift + F10  ``` so to open a command prompt, then do the following commands:
+Firstly press  ``` Shift + F10 ``` so to open a command prompt, then do the following commands:
 
 1. ```list disk```
 2. ```select disk <No.>``` *where as <No.> is specific disk number*
@@ -34,7 +34,7 @@ Firstly press  ``` Shift + F10  ``` so to open a command prompt, then do the fol
 
 **Bonus commands:**
 - Type ```shutdown /s```  to Shutdown your windows PC; *usually does not work via windows installation process*
-- Type ```shutdown /r ``` to Restart your windows PC; *usually does not work via windows installation process*
+- Type ```shutdown /r``` to Restart your windows PC; *usually does not work via windows installation process*
 
 ---
 
