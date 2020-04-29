@@ -12,7 +12,7 @@
 ### Third step is git bash straight away from local repository or follow command below:
 ``` cd ~/My-Github-Project/new_repo ```
 ### In order to show files files and (or) folders (to get know better what files are you working with), follow command below:
-``` git ls-files ``` if no files is shown it might be due to files not been added (added, tracked, staged – all're synonyms) yet. Otherwise it's empty local_repository
+``` git ls-files ``` if no files is shown it might be due to files not been added (added, tracked – all're synonyms) yet. Otherwise it's empty local_repository
 ### We allways have to track first using  ``` $ git add ``` command, then by tracking we prepare file(s) or/and folders for staging (stage)
 [Stackoverflow: difference-between-git-add-a-and-git-add](https://stackoverflow.com/questions/572549/difference-between-git-add-a-and-git-add) | **Rule of the thumb**: *First TRACK then STAGE*
 
